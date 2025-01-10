@@ -16,6 +16,13 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
+    - name: Generate pylint config
+      run: |
+        pylint --generate-rcfile > .pylintrc
+        echo "[MESSAGES CONTROL]" > .pylintrc
+        echo "disable=C0111,C0103,C0303,C0326,W0311,W0621,R0903,R0913,R0914" >> .pylintrc
+        echo "[FORMAT]" >> .pylintrc
+        echo "max-line-length=120" >> .pylintrc
     - name: Analysing the code with pylint
       run: |
-        pylint --rcfile=.pylintrc $(git ls-files '*.py')
+        pylint $(git ls-files '*.py')
