@@ -1,4 +1,4 @@
-[MASTER]
+[MESSAGES CONTROL]
 disable=
     C0111,  # missing-docstring
     C0103,  # invalid-name
@@ -8,19 +8,10 @@ disable=
     W0621,  # redefined-outer-name
     R0903,  # too-few-public-methods
     R0913,  # too-many-arguments
-    R0914,  # too-many-locals
+    R0914   # too-many-locals
 
-# Augmenter les limites
 [FORMAT]
 max-line-length=120
-max-module-lines=2000
 
-[DESIGN]
-max-args=10
-max-attributes=12
-min-public-methods=1
-max-locals=20
-
-# Score minimal pour valider
-[MESSAGES CONTROL]
-fail-under=7.0
+[BASIC]
+good-names=i,j,k,ex,Run,_,fd,fp
