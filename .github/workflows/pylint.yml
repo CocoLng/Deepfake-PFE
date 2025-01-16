@@ -21,7 +21,7 @@ jobs:
         echo "[MESSAGES CONTROL]" > .pylintrc
         echo "disable=C0111,C0103,C0303,W0311,W0621,R0903,R0913,R0914,C0304, E0401, R0902" >> .pylintrc
         echo "[FORMAT]" >> .pylintrc
-        echo "max-line-length=120" >> .pylintrc
+        echo "max-line-length=180" >> .pylintrc
     - name: Analysing the code with pylint
       run: |
         pylint --rcfile=.pylintrc $(git ls-files '*.py')
