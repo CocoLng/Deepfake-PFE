@@ -9,7 +9,8 @@ disable=
     R0903,  # too-few-public-methods
     R0913,  # too-many-arguments
     R0914,  # too-many-locals
-    E0401   # import-error
+    E0401,   # import-error
+    R0902
 
 [FORMAT]
 max-line-length=120
