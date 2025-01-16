@@ -1,5 +1,5 @@
-import sys
 import os
+import sys
 import vlc  # Utiliser VLC pour la lecture vidéo
 
 from PyQt5.QtWidgets import (
@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import (
     QMainWindow,
     QWidget,
     QVBoxLayout,
-    QColorDialog ,
+#   QColorDialog ,
     QHBoxLayout,
     QPushButton,
     QLabel,
@@ -18,11 +18,9 @@ from PyQt5.QtWidgets import (
     QStackedWidget
 )
 from PyQt5.QtCore import Qt, QTimer
-
-import os
 from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel
+
+
 
 class HomePage(QWidget):
     def __init__(self, navigate_to):
