@@ -13,7 +13,7 @@ disable=
     R0902
 
 [FORMAT]
-max-line-length=120
+max-line-length=180
 
 [BASIC]
 good-names=i,j,k,ex,Run,_,fd,fp
