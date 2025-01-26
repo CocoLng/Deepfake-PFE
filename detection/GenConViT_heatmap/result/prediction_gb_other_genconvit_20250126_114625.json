@@ -1,0 +1,1 @@
+{"video": {"name": ["squeezie.mp4", "macronfake.mov", "DAVID1.mp4", "DAVID2.mp4", "videotest.mp4"], "pred": [0.9228572845458984, 0.5508956909179688, 0.6910735964775085, 0.937519371509552, 0.9760791659355164], "klass": ["uncategorized", "uncategorized", "uncategorized", "uncategorized", "uncategorized"], "pred_label": ["REAL", "FAKE", "FAKE", "FAKE", "REAL"], "correct_label": []}}
