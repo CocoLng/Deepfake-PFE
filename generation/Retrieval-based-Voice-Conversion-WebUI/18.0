@@ -1,0 +1,3 @@
+Requirement already satisfied: cython in c:\users\khoze\anaconda3\envs\deepfake\lib\site-packages (3.0.11)
+Requirement already satisfied: numpy in c:\users\khoze\anaconda3\envs\deepfake\lib\site-packages (1.25.0)
+Requirement already satisfied: setuptools in c:\users\khoze\anaconda3\envs\deepfake\lib\site-packages (75.1.0)
